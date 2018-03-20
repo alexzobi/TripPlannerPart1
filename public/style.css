@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+header{
+  position: fixed;
+  display: flex;
+  background-color: salmon;
+  height: 5vh;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 15px 15px;
+  z-index: 2;
+  width: 70vw;
+}
+
+.logo h2{
+  padding: 2em;
+  color: #612f2f
+}
+header nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item a{
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#selection {
+  display: flex;
+  height: 40vh;
+  width: 20vw;
+  background-color: salmon;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px 0 0 15px;
+  justify-content: center;
+}
+
+#selection li {
+}
+#selection ul{
+  background-color: rgba(238, 236, 236, 0.39);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  height: 35vh;
+  width: 15vw;
+}
+
+#itinerary {
+  height: 40vh;
+  width: 20vw;
+  padding-left: 2em;
+  background-color: salmon;
+  border-radius: 15px 0 0 15px
+
+}
+
+select {
+  width: 7vw;
+}
+
+#container {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+#flexContainer {
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+}
